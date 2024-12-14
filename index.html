@@ -65,9 +65,9 @@
     <link rel="icon" type="image/x-icon" href="">
   </head>
   <body>
-    <div class="flex m-2  border-b-4 ">
+    <div class="flex m-2 justify-between  border-b-4 ">
       <svg
-        class="w-1/6 left-item mt-2 "
+        class="min-w-32 lg:w-1/6 left-item mt-2  "
         height="60"
         viewBox="-2 -2.4 907.8 249.3"
         width="100"
@@ -94,66 +94,298 @@
       </svg>
       <nav>
         <div class="m-4">
-            <button id="hamburger" onclick="toggleMenu()" class="md:hidden focus:outline-none m-4">
-                <!-- Hamburger Icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-12 h-12 hamburger">
+           <button id="hamburger" onclick="toggleMenu()" class="md:hidden  focus:outline-none mb-4">
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-12 h-12 hamburger">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16"></path>
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16"></path>
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 18h16"></path>
-                </svg>
-            
-                <!-- Cross Icon (Hidden by default) -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-12 h-12 mb-8 cross hidden">
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-12 h-12 mb-8 cross hidden">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-            </button>
+                    </svg>
+
+               </button>
         </div>
     </nav>
-
-    <!-- Mobile Menu (Hidden on larger screens) -->
-    <div id="mobile-menu" class="md:hidden bg-blue-500 p-4 space-y-4 mt-16 hidden absolute inset-0 z-40 left-0">
-        <a href="#" class="text-white block">Home</a>
-
-        <!-- Mobile Dropdowns -->
+    <div id="mobile-menu" class="md:hidden bg-white text-black p-4 space-y-4 mt-16 hidden absolute inset-0 z-40 left-0">
         <div>
-            <button onclick="toggleDropdown('mobile-dropdown1')" class="text-white">Dropdown 1</button>
-            <div id="mobile-dropdown1" class="hidden bg-white text-black rounded shadow-md space-y-2 p-2">
-                <a href="#" class="block">Option 1</a>
-                <a href="#" class="block">Option 2</a>
-                <a href="#" class="block">Option 3</a>
+            <button onclick="toggleDropdown('mobile-dropdown1')" class="text-black m-2 font-semibold">Men</button>
+            <div id="mobile-dropdown1" class="hidden bg-white text-black rounded shadow-md space-y-2 p-2 m-2">
+              <ul class="py-2 grid grid-cols-2 gap-2 text-black  text-sm ">
+                <li class="px-4 py-2 hover:text-blue-500  cursor-pointer">
+                  Shirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  T-Shirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Hoodies
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Sweatshirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Jackets
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Coats
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Blazers
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Suits
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Jeans
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Chinos
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Trousers
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Shorts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Tracksuits
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Cargo Pants
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Sweatpants
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Overalls
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Polo Shirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Tank Tops
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Cardigans
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Vests
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Thermals
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Denim Jackets
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Leather Jackets
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Parkas
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Raincoats
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Windbreakers
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Bomber Jackets
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Sweaters
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Gym Wear
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Nightwear
+                </li>
+              </ul>
             </div>
         </div>
 
         <div>
-            <button onclick="toggleDropdown('mobile-dropdown2')" class="text-white">Dropdown 2</button>
+            <button onclick="toggleDropdown('mobile-dropdown2')" class="text-black m-2 font-semibold">Women</button>
             <div id="mobile-dropdown2" class="hidden bg-white text-black rounded shadow-md space-y-2 p-2">
-                <a href="#" class="block">Option 1</a>
-                <a href="#" class="block">Option 2</a>
-                <a href="#" class="block">Option 3</a>
+              <ul class="py-2 grid grid-cols-4 gap-2 text-sm">
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Dresses
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Tops</li>
+
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Blouses
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Skirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Jeans
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Leggings
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Jeggings
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Shorts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Culottes
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Palazzo Pants
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Jumpsuits
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Rompers
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Cardigans
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Sweaters
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Hoodies
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Jackets
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Blazers
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Coats
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Tank Tops
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  T-Shirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Formal Shirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Ethnic Wear
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Sarees
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Lehengas
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Salwar Kameez
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Nightwear
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Swimwear
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Activewear
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Party Wear
+                </li>
+              </ul>
             </div>
         </div>
 
         <div>
-            <button onclick="toggleDropdown('mobile-dropdown3')" class="text-white">Dropdown 3</button>
+            <button onclick="toggleDropdown('mobile-dropdown3')" class="text-black m-2 font-semibold">Kids</button>
             <div id="mobile-dropdown3" class="hidden bg-white text-black rounded shadow-md space-y-2 p-2">
-                <a href="#" class="block">Option 1</a>
-                <a href="#" class="block">Option 2</a>
-                <a href="#" class="block">Option 3</a>
+              <ul class="py-2 grid grid-cols-2 gap-2 text-sm">
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  T-Shirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Shirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Pants
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Shorts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Dresses
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Skirts
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Leggings
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Hoodies
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Sweaters
+                </li>
+                <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">
+                  Jackets
+                </li>
+              </ul>
             </div>
         </div>
-
-        <a href="#" class="text-white block">Button 1</a>
-        <a href="#" class="text-white block">Button 2</a>
-    </div>
+        <div>
+          <button onclick="toggleDropdown('mobile-dropdown4')" class="text-black m-2 font-semibold">Beauty</button>
+          <div id="mobile-dropdown4" class="hidden bg-white text-black rounded shadow-md space-y-2 p-2">
+            <ul class="py-2 grid grid-cols-2 gap-2 text-sm">
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Face Creams</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Moisturizers</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Sunscreens</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Serums</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Facial Oils</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Eye Creams</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Face Masks</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Exfoliators</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Makeup Removers</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Primers</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Foundation</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Concealers</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Blush</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Highlighters</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Bronzers</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Eyeliner</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Mascaras</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Eyeshadows</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Lipsticks</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Lip Balms</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Lip Glosses</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Body Scrubs</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Body Lotions</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Hand Creams</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Hair Shampoos</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Conditioners</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Hair Serums</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Hair Masks</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Hair Sprays</li>
+              <li class="px-4 py-2 hover:text-blue-500 cursor-pointer">Perfumes</li>
+          </ul>
+          </div>
+        </div>
+       
+      </div>
       <div class="hidden md:block">
-        <div class="flex right-item ml-auto w-4/5 ">
+        <div class="flex right-item ml-auto ">
           <div class="relative group justify-end text-lg">
             <button class="px-4 py-6 text-sm font-bold rounded-md focus:outline-none">
               MEN
+              <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
+
             </button>
             <div
-              class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 shadow-lg w-96 max-h-90 overflow-auto"
-            >
+              class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 shadow-lg w-96 max-h-90 overflow-auto" >
               <ul class="py-2 grid grid-cols-4 gap-2 text-sm ">
                 <li class="px-4 py-2 hover:text-blue-500  cursor-pointer">
                   Shirts
@@ -249,7 +481,10 @@
             </div>
           </div>
           <div class="relative group justify-end text-lg">
-            <button class="px-4 py-6 rounded-md text-sm font-bold">WOMEN</button>
+            <button class="px-4 py-6 rounded-md text-sm font-bold">WOMEN
+              <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
+
+            </button>
             <div
               class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 flex flex-wrap shadow-lg w-96 max-h-90 overtext-blue-500"
             >
@@ -343,7 +578,10 @@
             </div>
           </div>
           <div class="relative group justify-end">
-            <button class="px-4 py-6 text-sm font-bold">KIDS</button>
+            <button class="px-4 py-6 text-sm font-bold">KIDS
+              <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
+
+            </button>
             <div
               class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 shadow-lg w-64 max-h-90 overflow-auto">
               <ul class="py-2 grid grid-cols-3 gap-2 text-sm">
@@ -385,6 +623,8 @@
               class="px-4 py-6 text-sm font-bold rounded-md focus:outline-none"
             >
               BEAUTY
+              <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
+
             </button>
             <div
               class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 shadow-lg -ml-48 w-96 max-h-90 overflow-auto"
@@ -426,12 +666,15 @@
            <div class="relative group justify-end">
               <button class="px-4 py-6 text-sm font-bold rounded-md focus:outline-none">
               STUDIO
+              <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
+
               </button>
               <div class="min-w-96 mt-2 absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 shadow-lg w-full h-auto">
                 <img src="./Assets/sudio-nav-banner.png" alt="Studio Image" class=""/>
-            </div>
-            
-          </div>
+               </div>
+              </div>
+         
+          <div class="flex">
             <div class="w-full  min-w-[300px] relative">
               <input class="w-full mt-4 bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 pl-10 pr-3 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" 
                 placeholder="Search for Products, brands and more">
@@ -461,23 +704,25 @@
                         
                 <span class="text-sm font-semibold">Bag</span>
             </div>
-        </div>
+          </div>
+          </div>
+        
       </div>
     </div>
-    <div class="mx-24 my-2">
-      <div>
-        <img src="./Assets/flat 500 off.jpg" />
+    <div class=" my-2">
+      <div >
+        <img  class="w-full h-auto" src="./Assets/flat 500 off.jpg" />
       </div>
-      <div class="w-full">
+      
         <img  src="./Assets/eos sale.jpg"/>
-        <div class="flex justify-center w-auto">
-          <img class="w-100" src="./Assets/us polo assn.jpg"/>
-          <img class="w-100" src="./Assets/Loreal.jpg"/>
-          <img class="w-100" src="./Assets/fitness sponser.jpg"/>
+        <div class="flex justify-center w-full h-auto overflow-x-auto">
+          <img class="w-full max-w-xs h-auto" src="./Assets/us polo assn.jpg"/>
+          <img class="w-full max-w-xs h-auto" src="./Assets/Loreal.jpg"/>
+          <img class="w-full max-w-xs h-auto" src="./Assets/fitness sponser.jpg"/>
         </div>
-      </div>
+        <img src="./Assets/PriceCrash/Pcr img.jpg" > 
     </div>
-    <img src="./Assets/PriceCrash/Pcr img.jpg" >
+    
     <div class="overflow-hidden relative mx-10">
        <div class="flex flex animate-marquee space-x-4">
         <img src="./Assets/PriceCrash/0lcoGvET_b3adc506f1274b5a9c33bd7e70d764e9.jpg">
