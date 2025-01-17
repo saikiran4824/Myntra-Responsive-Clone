@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,16 +12,16 @@
       }
 
       ::-webkit-scrollbar-track {
-        background: #3b3b3b;
+        background: #ffffff;
       }
 
       ::-webkit-scrollbar-thumb {
-        background: #ffffff;
+        background: #3b3b3b;
         border-radius: 8px;
       }
 
       ::-webkit-scrollbar-thumb:hover {
-        background: #f1f1f1;
+        background: #3b3b3b;
       }
     }
 
@@ -81,7 +80,7 @@
 
 <body>
 
-  <div class="sticky top-0 z-10 flex  lg:m-2 justify-between  bg-white border-b-4 ">
+  <div class="sticky top-0 z-10 flex   justify-between  bg-white border-b-4 ">
     <svg class="min-w-32 lg:w-1/6 left-item mt-2 ml-2  " height="60" viewBox="-2 -2.4 907.8 249.3" width="100"
     xmlns="http://www.w3.org/2000/svg">
     <path
@@ -107,13 +106,13 @@
     <div class="m-1 ">
       <button id="hamburger" onclick="toggleMenu()"  class="md:hidden  focus:outline-none mt-2">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black"
-          class="w-10 h-10 hamburger">
+          class="w-8 h-8 hamburger">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16"></path>
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16"></path>
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 18h16"></path>
         </svg>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black"
-          class="w-10 h-10  cross hidden">
+          class="w-8 h-8  cross hidden">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
         </svg>
       </button>
@@ -123,316 +122,239 @@
     <div class="hidden md:block">
       <div class="flex right-item ml-auto ">
         <div class="relative group justify-end text-lg">
-          <button class="px-4 py-6 text-sm font-bold hover:text-[#E72744] rounded-md focus:outline-none flex items-center">
+          <button class="px-4 py-6 text-md hover:text-[#E72744]   flex items-center">
             MEN
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
             </svg>
             <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
           </button>
           <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-48 shadow-lg w-[700px] max-h-90 overflow-auto">
-            <ul class="py-2 grid grid-cols-6 gap-8 text-md font-sans whitespace-nowrap px-2 mx-2">
-             
-              <li class="px-4 py-2 hover:text-[#E72744]  cursor-pointer">
-                Shirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                T-Shirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Hoodies
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Sweatshirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Jackets
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Coats
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Blazers
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Suits
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Jeans
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Chinos
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Trousers
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Shorts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Tracksuits
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Cargo Pants
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Sweatpants
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Overalls
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Polo Shirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Tank Tops
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Cardigans
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Vests
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Thermals
-              </li>
-              
-             
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Parkas
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Raincoats
-              </li>
-             
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Sweaters
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Gym Wear
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Nightwear
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Denim Jackets
-              </li>
+            <ul class="py-2 grid grid-cols-3 gap-4 text-sm whitespace-nowrap px-2 mx-2">
+
+              <ul>
+                <li class="px-4 py-2 font-bold text-green-600 col-span-1">Tops</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Shirts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">T-Shirts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hoodies</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sweatshirts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Polo Shirts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tank Tops</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Cardigans</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Vests</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Thermals</li>
+              </ul>
+            
+              <ul>
+                <li class="px-4 py-2 font-bold text-green-600 col-span-1">Bottoms</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeans</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Chinos</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Trousers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Shorts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tracksuits</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Cargo Pants</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sweatpants</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Overalls</li>
+              </ul>
+            
+              <ul>
+                <li class="px-4 py-2 font-bold text-green-600 col-span-1">Outerwear</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jackets</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Coats</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blazers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Suits</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Parkas</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Raincoats</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Denim Jackets</li>
+              </ul>             
             </ul>
           </div>
         </div>
         <div class="relative group justify-end text-lg">
-          <button class="px-4 py-6 text-sm font-bold hover:text-[#E72744] rounded-md focus:outline-none flex items-center">
+          <button class="px-4 py-6 text-md  hover:text-[#E72744] flex items-center">
             WOMEN
-            <!-- Chevron Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
             </svg>
             <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
           </button>
-          <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-48 shadow-lg w-[700px] max-h-90 overflow-auto">
-            <ul class="py-2 grid grid-cols-6 gap-8 text-md font-sans whitespace-nowrap px-2 mx-2">
-             
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Dresses
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tops</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Blouses
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Skirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Jeans
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Leggings
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Jeggings
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Shorts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Culottes
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Palazzo Pants
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Jumpsuits
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Rompers
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Cardigans
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Sweaters
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Hoodies
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Jackets
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Blazers
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Coats
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Tank Tops
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                T-Shirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Formal Shirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Ethnic Wear
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Sarees
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Lehengas
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Salwar Kameez
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Nightwear
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Swimwear
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Activewear
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Party Wear
-              </li>
+          <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-48 shadow-lg w-[900px] max-h-90 overflow-auto">
+            <ul class="py-2 grid grid-cols-4 gap-4 text-sm whitespace-nowrap px-2 mx-2">
+
+                <ul>
+                <li class="px-4 py-2 font-bold col-span-1 text-green-600">Tops</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tops</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blouses</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tank Tops</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">T-Shirts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Formal Shirts</li>
+              </ul>            
+              <ul>
+                <li class="px-4 py-2 font-bold col-span-1 text-green-600">Bottoms</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Skirts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeans</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Leggings</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeggings</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Shorts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Culottes</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Palazzo Pants</li>
+              </ul>
+              <ul>
+                <li class="px-4 py-2 font-bold col-span-1 text-green-600">Outerwear</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jumpsuits</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Rompers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Cardigans</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sweaters</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hoodies</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jackets</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blazers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Coats</li>
+              </ul>
+            
+              <ul>
+                <li class="px-4 py-2 font-bold col-span-1 text-green-600">Ethnic Wear</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Ethnic Wear</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sarees</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Lehengas</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Salwar Kameez</li>
+              </ul>
+              
             </ul>
+            
           </div>
         </div>
+        
         <div class="relative group justify-end text-lg">
-          <button class="px-4 py-6 text-sm font-bold hover:text-[#E72744] rounded-md focus:outline-none flex items-center">
-            KIDS
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
-            </svg>
-            <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
-          </button>
-          <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-10 shadow-lg w-[300px] max-h-90 overflow-auto">
-            <ul class="py-2 grid grid-cols-2 gap-8 text-md font-sans whitespace-nowrap px-2 mx-2">
-             
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                T-Shirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Shirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Pants
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Shorts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Dresses
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Skirts
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Leggings
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Hoodies
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Sweaters
-              </li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-                Jackets
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="relative group justify-end text-lg">
-          <button class="px-4 py-6 text-sm font-bold hover:text-[#E72744] rounded-md focus:outline-none flex items-center">
+          <button class="px-4 py-6 text-md  hover:text-[#E72744]  flex items-center">
             BEAUTY
-            <!-- Chevron Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
             </svg>
             <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
           </button>
           <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-64 shadow-lg w-[900px] max-h-90 overflow-auto">
-            <ul class="py-2 grid grid-cols-6 gap-8 text-md font-sans whitespace-nowrap px-2 mx-2">
-             
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Face Creams</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Moisturizers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sunscreens</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Serums</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Facial Oils</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Eye Creams</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Face Masks</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Exfoliators</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Makeup Removers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Primers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Foundation</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Concealers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blush</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Highlighters</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Bronzers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Eyeliner</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Mascaras</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Eyeshadows</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Lipsticks</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Lip Balms</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Lip Glosses</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Body Scrubs</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Body Lotions</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hand Creams</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer"> Shampoos</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Conditioners</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hair Serums</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hair Masks</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hair Sprays</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Perfumes</li>
+            <ul class="py-2 grid grid-cols-4 gap-4 text-sm whitespace-nowrap px-2 mx-2">
+             <ul>
+              <li class="px-4 py-2 font-bold text-green-600 col-start-1">Skin Care</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Face Creams</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Moisturizers</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Sunscreens</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Serums</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Facial Oils</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Eye Creams</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Face Masks</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Exfoliators</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Makeup Removers</li>
+              
+            </ul>
+            <ul>
+              <li class="px-4 py-2 font-bold text-green-600 col-start-2">Makeup</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Primers</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Foundation</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Concealers</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Blush</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Highlighters</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Bronzers</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Eyeliner</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Mascaras</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Eyeshadows</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lipsticks</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lip Balms</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lip Glosses</li>
+            </ul>
+              <ul>
+              <li class="px-4 py-2 font-bold text-green-600 col-start-3">Body Care</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Body Scrubs</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Body Lotions</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Hand Creams</li>
+            </ul>
+               <ul>
+              <li class="px-4 py-2 font-bold text-green-600 col-start-4">Hair Care</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Shampoos</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Conditioners</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Serums</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Masks</li>
+              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Sprays</li>
+            </ul>
+              
             </ul>
           </div>
         </div>
-        <div class="relative group justify-end">
-          <button class="px-4 py-6 text-sm font-bold rounded-md  hover:text-[#E72744] focus:outline-none">
-            STUDIO
-            <span
-              class="absolute left-0 bottom-0 block h-0.5  bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
+        <div class="relative group justify-end text-lg">
+          <button class="px-4 py-6 text-md  hover:text-[#E72744] flex items-center">
+            KIDS
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
+            </svg>
+            <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
           </button>
+          <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-64 shadow-lg w-[800px] max-h-90 overflow-auto">
+            <ul class="py-2 grid grid-cols-4 gap-4 text-sm whitespace-nowrap px-2 mx-2">
+              <ul>
+              <li class="px-4 py-2 font-bold text-green-600 col-span-1">Tops</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">T-Shirts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Shirts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blouses</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tank Tops</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Formal Shirts</li>
+              </ul>
+            
+             <ul>
+              <li class="px-4 py-2 font-bold text-green-600 col-span-1">Bottoms</li>
+              
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Pants</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Shorts</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeans</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Leggings</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeggings</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Culottes</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Palazzo Pants</li>
+              </ul>
+            
+              <ul>
+              <li class="px-4 py-2 font-bold text-green-600 col-span-1">Outerwear</li>
+             
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hoodies</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sweaters</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jackets</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blazers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Coats</li>
+              </ul>
+               <ul>
+              <li class="px-4 py-2 font-bold text-green-600 col-span-1">Dresses</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Dresses</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Maxi Dresses</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Mini Dresses</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Party Dresses</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Cocktail Dresses</li>
+              </ul>
+          
+            </ul>
+            
+          </div>
+        </div>
+        <div class="relative group ">
+          <button class="px-4 py-6 text-md hover:text-[#E72744] relative inline-flex items-center">
+            STUDIO
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
+            </svg>
+            <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
+          </button>
+          
           <div
             class="min-w-[700px] mt-2 absolute hidden group-hover:block -ml-36 bg-white border border-gray-300 rounded-md mt-2 p-4 shadow-lg w-full h-auto">
             <img src="./Assets/sudio-nav-banner.png" alt="Studio Image" class="" />
           </div>
         </div>
-
         <div class="flex">
-          <div class="w-full min-w-[300px] relative">
+          <div class="w-full min-w-[250px] relative">
             <input
-            class="w-full mt-4 bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border  rounded-md px-3 py-2 pl-10 pr-3 border-[#E72744] focus:outline-none shadow-sm focus:shadow-md" 
-            placeholder="Search for Products, brands and more">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              class="w-3 h-3  absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-500">
-              <circle cx="11" cy="11" r="8" />
-              <line x1="16.5" y1="16.5" x2="22" y2="22" />
-            </svg>
+              class="mt-4 bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border rounded-md px-3 py-2 pr-3 border-[#E72744] focus:outline-none shadow-sm focus:shadow-md w-[400px]" 
+              placeholder="Search for Products, brands and more"
+            />
           </div>
+          
           <div class="mx-4 mt-2">
             <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" viewBox="0 0 24 24" width="18" height="18"
               fill="rgb(100, 100, 100)">
@@ -454,10 +376,8 @@
      class="fill-[rgb(100,100,100)] hover:fill-[#E72744]">
   <path
     d="M16 2H8c-1.1 0-1.99.9-1.99 2L6 20c0 1.1.9 2 1.99 2H16c1.1 0 1.99-.9 1.99-2L18 4c0-1.1-.9-2-1.99-2zM9 4h6v2H9V4z" />
-</svg>
-
-
-            <span class="text-sm font-semibold  ">Bag</span>
+   </svg>
+            <span class="text-sm font-semibold">Bag</span>
           </div>
         </div>
       </div>
@@ -729,10 +649,7 @@
             </g>
           </g>
         </svg>
-        
-      
       </div>
-      
 <div class="flex items-center space-x-2">
   <span class="text-black m-2 font-semibold">Cart</span>
 
@@ -753,10 +670,8 @@
         </svg>
       </span>
     </a>
-
     <a href="#!" role="button">
-
-      <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584]">
+ <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584]">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path
             d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
@@ -785,8 +700,6 @@
   </div>
 </div>
 </div>
-  
-  
   <div class=" my-2">
     <div class="mx-2">
       <input type="text" id="searchInput" class="border md:hidden rounded-xl shadow-lg w-full mb-4 p-2 px-2 "
@@ -814,7 +727,6 @@
           </div>
         </div> 
       </div>
-
       <script>
         let currentIndex = 0;
         const images = document.querySelectorAll('#image-carousel img');
@@ -839,19 +751,13 @@
               dot.classList.add('bg-gray-500');
             }
           });
-          
-
           }
-        
-
         setInterval(() => {
           currentIndex = (currentIndex + 1) % images.length;
           updateCarousel();
         }, 3000);
         updateCarousel();
       </script>
-
-
     </div>
     <img class="hidden md:block" src="./Assets/flat 500 off.jpg" />
 
@@ -872,6 +778,8 @@
 
     <img class="" src="./Assets/PriceCrash/Pcr img.jpg">
   </div>
+
+
 
   <div class="overflow-hidden relative mx-4  md:mx-10 ">
     <div class="flex flex animate-marquee space-x-4 h-64 md:h-32 lg:h-full">
@@ -974,6 +882,15 @@
       <img src="./Assets/ShopByCat/LNegM5Qw_54583ba340804cdd9851fd752a42ed86.jpg">
     </div>
   </div>
+  <div class="flex justify-center items-center space-x-4 flex-wrap">
+    <img class="w-full sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 h-auto transform transition duration-300 ease-in-out hover:scale-110" src="./Assets/couple-film-love-movies-wallpaper-preview.jpg" alt="Couple Film Love">
+    <img class="w-full sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 h-auto transform transition duration-300 ease-in-out hover:scale-110" src="./Assets/titanic-kate-winslet-as-rose-2vqoenaj5hrgflho.jpg" alt="Titanic Rose">
+    <img class="w-full sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 h-auto transform transition duration-300 ease-in-out hover:scale-110" src="./Assets/titanic-movies-love-couple-wallpaper-preview.jpg" alt="Titanic Love Couple">
+  </div>
+  
+  
+  
+  
   <footer class="bg-white text-black py-10">
     <div class="container mx-auto px-6">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
