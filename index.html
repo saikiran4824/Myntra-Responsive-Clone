@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
   
   <title>Sai Myntra</title>
   <link rel="icon" type="image/x-icon" href="">
@@ -53,8 +56,8 @@
   
     <div class="hidden md:block">
       <div class="flex right-item ml-auto ">
-        <div class="relative group justify-end text-lg">
-          <button class="px-4 py-6 text-md hover:text-[#E72744]   flex items-center">
+        <div class="relative  group justify-end text-lg">
+          <button class="px-6 py-4 text-md font-semibold text-gray-800 hover:text-[#E72744] flex items-center transition duration-300">
             MEN
             <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
@@ -62,10 +65,10 @@
             <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
           </button>
           <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-48 shadow-lg w-[700px] max-h-90 overflow-auto">
-            <ul class="py-2 grid grid-cols-3 gap-4 text-sm whitespace-nowrap px-2 mx-2">
-
+            <ul class="py-2 grid grid-cols-3 gap-4 text-sm font-medium text-gray-700 whitespace-nowrap px-2 mx-2">
               <ul>
-                <li class="px-4 py-2 font-bold text-green-600 col-span-1">Tops</li>
+                <li class="px-4 py-2 text-xl text-green-600  col-span-1">Tops   <span class="absolute left-0 bottom-0 block h-0.5 bg-green-600 w-16"></span>
+                </li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Shirts</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">T-Shirts</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hoodies</li>
@@ -76,9 +79,8 @@
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Vests</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Thermals</li>
               </ul>
-            
               <ul>
-                <li class="px-4 py-2 font-bold text-green-600 col-span-1">Bottoms</li>
+                <li class="px-4 py-2 text-xl text-green-600 col-span-1">Bottoms</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeans</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Chinos</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Trousers</li>
@@ -88,9 +90,8 @@
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sweatpants</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Overalls</li>
               </ul>
-            
               <ul>
-                <li class="px-4 py-2 font-bold text-green-600 col-span-1">Outerwear</li>
+                <li class="px-4 py-2 text-xl text-green-600 col-span-1">Outerwear</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jackets</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Coats</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blazers</li>
@@ -98,12 +99,13 @@
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Parkas</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Raincoats</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Denim Jackets</li>
-              </ul>             
+              </ul>
             </ul>
           </div>
         </div>
+        
         <div class="relative group justify-end text-lg">
-          <button class="px-4 py-6 text-md  hover:text-[#E72744] flex items-center">
+          <button class="px-6 py-4 text-md font-semibold text-gray-800 hover:text-[#E72744] flex items-center transition duration-300">
             WOMEN
             <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
@@ -111,18 +113,17 @@
             <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
           </button>
           <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-48 shadow-lg w-[900px] max-h-90 overflow-auto">
-            <ul class="py-2 grid grid-cols-4 gap-4 text-sm whitespace-nowrap px-2 mx-2">
-
-                <ul>
-                <li class="px-4 py-2 font-bold col-span-1 text-green-600">Tops</li>
+            <ul class="py-2 grid grid-cols-4 gap-4 text-sm font-medium text-gray-700 whitespace-nowrap px-2 mx-2">
+              <ul>
+                <li class="px-4 py-2 text-xl text-green-600 col-span-1">Tops</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tops</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blouses</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tank Tops</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">T-Shirts</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Formal Shirts</li>
-              </ul>            
+              </ul>
               <ul>
-                <li class="px-4 py-2 font-bold col-span-1 text-green-600">Bottoms</li>
+                <li class="px-4 py-2 text-xl text-green-600 col-span-1">Bottoms</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Skirts</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeans</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Leggings</li>
@@ -132,7 +133,7 @@
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Palazzo Pants</li>
               </ul>
               <ul>
-                <li class="px-4 py-2 font-bold col-span-1 text-green-600">Outerwear</li>
+                <li class="px-4 py-2 text-xl text-green-600 col-span-1">Outerwear</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jumpsuits</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Rompers</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Cardigans</li>
@@ -142,22 +143,19 @@
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blazers</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Coats</li>
               </ul>
-            
               <ul>
-                <li class="px-4 py-2 font-bold col-span-1 text-green-600">Ethnic Wear</li>
+                <li class="px-4 py-2 text-xl text-green-600 col-span-1">Ethnic Wear</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Ethnic Wear</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sarees</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Lehengas</li>
                 <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Salwar Kameez</li>
               </ul>
-              
             </ul>
-            
           </div>
         </div>
         
         <div class="relative group justify-end text-lg">
-          <button class="px-4 py-6 text-md  hover:text-[#E72744]  flex items-center">
+          <button class="px-6 py-4 text-md font-semibold text-gray-800 hover:text-[#E72744] flex items-center transition duration-300">
             BEAUTY
             <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
@@ -165,108 +163,56 @@
             <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
           </button>
           <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-64 shadow-lg w-[900px] max-h-90 overflow-auto">
-            <ul class="py-2 grid grid-cols-4 gap-4 text-sm whitespace-nowrap px-2 mx-2">
-             <ul>
-              <li class="px-4 py-2 font-bold text-green-600 col-start-1">Skin Care</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Face Creams</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Moisturizers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Sunscreens</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Serums</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Facial Oils</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Eye Creams</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Face Masks</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Exfoliators</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Makeup Removers</li>
-              
-            </ul>
-            <ul>
-              <li class="px-4 py-2 font-bold text-green-600 col-start-2">Makeup</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Primers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Foundation</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Concealers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Blush</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Highlighters</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Bronzers</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Eyeliner</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Mascaras</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Eyeshadows</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lipsticks</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lip Balms</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lip Glosses</li>
-            </ul>
+            <ul class="py-2 grid grid-cols-4 gap-4 text-sm font-medium text-gray-700 whitespace-nowrap px-2 mx-2">
               <ul>
-              <li class="px-4 py-2 font-bold text-green-600 col-start-3">Body Care</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Body Scrubs</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Body Lotions</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Hand Creams</li>
-            </ul>
-               <ul>
-              <li class="px-4 py-2 font-bold text-green-600 col-start-4">Hair Care</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Shampoos</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Conditioners</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Serums</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Masks</li>
-              <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Sprays</li>
-            </ul>
-              
+                <li class="px-4 py-2 text-xl text-green-600 col-start-1">Skin Care</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Face Creams</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Moisturizers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Sunscreens</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Serums</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Facial Oils</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Eye Creams</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Face Masks</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Exfoliators</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-1">Makeup Removers</li>
+              </ul>
+              <ul>
+                <li class="px-4 py-2 text-xl text-green-600 col-start-2">Makeup</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Primers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Foundation</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Concealers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Blush</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Highlighters</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Bronzers</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Eyeliner</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Mascaras</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Eyeshadows</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lipsticks</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lip Balms</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-2">Lip Glosses</li>
+              </ul>
+              <ul>
+                <li class="px-4 py-2 text-xl text-green-600 col-start-3">Body Care</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Body Scrubs</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Body Lotions</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-3">Hand Creams</li>
+              </ul>
+              <ul>
+                <li class="px-4 py-2 text-xl text-green-600 col-start-4">Hair Care</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Shampoos</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Conditioners</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Serums</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Masks</li>
+                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer col-start-4">Hair Sprays</li>
+              </ul>
             </ul>
           </div>
         </div>
-        <div class="relative group justify-end text-lg">
-          <button class="px-4 py-6 text-md  hover:text-[#E72744] flex items-center">
-            KIDS
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
-            </svg>
-            <span class="absolute left-0 bottom-0 block h-0.5 bg-[#F05524] w-0 group-hover:w-full transition-all duration-300"></span>
-          </button>
-          <div class="absolute hidden group-hover:block bg-white border border-gray-300 rounded-md mt-2 -ml-64 shadow-lg w-[800px] max-h-90 overflow-auto">
-            <ul class="py-2 grid grid-cols-4 gap-4 text-sm whitespace-nowrap px-2 mx-2">
-              <ul>
-              <li class="px-4 py-2 font-bold text-green-600 col-span-1">Tops</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">T-Shirts</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Shirts</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blouses</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tank Tops</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Formal Shirts</li>
-              </ul>
-            
-             <ul>
-              <li class="px-4 py-2 font-bold text-green-600 col-span-1">Bottoms</li>
-              
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Pants</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Shorts</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeans</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Leggings</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jeggings</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Culottes</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Palazzo Pants</li>
-              </ul>
-            
-              <ul>
-              <li class="px-4 py-2 font-bold text-green-600 col-span-1">Outerwear</li>
-             
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hoodies</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sweaters</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Jackets</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blazers</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Coats</li>
-              </ul>
-               <ul>
-              <li class="px-4 py-2 font-bold text-green-600 col-span-1">Dresses</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Dresses</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Maxi Dresses</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Mini Dresses</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Party Dresses</li>
-                <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Cocktail Dresses</li>
-              </ul>
-          
-            </ul>
-            
-          </div>
-        </div>
-        <div class="relative group ">
-          <button class="px-4 py-6 text-md hover:text-[#E72744] relative inline-flex items-center">
+        
+     
+        
+        <div class="relative group justify-end  text-lg ">
+          <button class="px-6 py-4 text-md font-semibold text-gray-800 hover:text-[#E72744] flex items-center transition duration-300">
             STUDIO
             <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 transition-transform duration-300 transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7l7 7 7-7"></path>
@@ -282,7 +228,7 @@
         <div class="flex">
           <div class="w-full min-w-[250px] relative">
             <input
-              class="mt-4 bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border rounded-md px-3 py-2 pr-3 border-[#E72744] focus:outline-none shadow-sm focus:shadow-md w-[400px]" 
+              class="mt-4 bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border rounded-md px-3 py-2 pr-3 border-[#E72744] focus:outline-none shadow-sm focus:shadow-md w-[300px]" 
               placeholder="Search for Products, brands and more"
             />
           </div>
@@ -309,334 +255,23 @@
 
     </div>
   </div>
-  <div id="mobile-menu" class="md:hidden bg-white text-black p-4 space-y-5  hidden absolute h-screen fixed z-9 sticky left-0 overflow-y-auto">
-    <div class=" mt-2">
-      <button onclick="toggleChevron('chevron1') ; toggleDropdown('mobile-dropdown1')" class="text-black m-2 mt-2 font-semibold  flex items-center">
-        Men
-        <svg id="chevron1" class="w-4 h-4 ml-2 transition-transform duration-300 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg>
-       
-      </button>
-        <div id="mobile-dropdown1" class="hidden bg-white text-black rounded  space-y-2 p-2 m-2">
-          <ul class="py-2 grid grid-cols-2 gap-2 text-black  text-sm ">
-            <li class="px-4 py-2 hover:text-[#E72744]  cursor-pointer">
-              Shirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              T-Shirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Hoodies
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Sweatshirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Jackets
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Coats
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Blazers
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Suits
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Jeans
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Chinos
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Trousers
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Shorts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Tracksuits
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Cargo Pants
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Sweatpants
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Overalls
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Polo Shirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Tank Tops
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Cardigans
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Vests
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Thermals
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Denim Jackets
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Leather Jackets
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Parkas
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Raincoats
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Windbreakers
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Bomber Jackets
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Sweaters
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Gym Wear
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Nightwear
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class=" mt-2">
-        <button  onclick="toggleChevron('chevron2'); toggleDropdown('mobile-dropdown2')" class="text-black flex items-center m-2 mt-2 font-semibold">Women
-        <svg id="chevron2" class="w-4 h-4 ml-2 mt-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg></button>
-        <div id="mobile-dropdown2" class="hidden bg-white text-black rounded d space-y-2 p-2">
-          <ul class="py-2 grid grid-cols-2 gap-2 text-sm">
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Dresses
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Tops</li>
-
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Blouses
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Skirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Jeans
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Leggings
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Jeggings
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Shorts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Culottes
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Palazzo Pants
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Jumpsuits
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Rompers
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Cardigans
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Sweaters
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Hoodies
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Jackets
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Blazers
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Coats
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Tank Tops
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              T-Shirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Formal Shirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Ethnic Wear
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Sarees
-            </li>
-         
-          </ul>
-        </div>
-      </div>
-
-      <div class=" mt-2">
-        <button  onclick="toggleChevron('chevron3') ; toggleDropdown('mobile-dropdown3')" class="text-black mt-2 m-2  flex items-center font-semibold">Kids
-        <svg id="chevron3" class="w-4 h-4 ml-2 transition-transform mt-1 duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg></button>
-        <div id="mobile-dropdown3" class="hidden bg-white text-black rounded  space-y-2 p-2">
-          <ul class="py-2 grid grid-cols-2 gap-2 text-sm">
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              T-Shirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Shirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Pants
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Shorts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Dresses
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Skirts
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Leggings
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Hoodies
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Sweaters
-            </li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">
-              Jackets
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class=" mt-2">
-        <button onclick="toggleChevron('chevron4') ;  toggleDropdown('mobile-dropdown4')" class="text-black mt-2 m-2 flex items-center font-semibold">Beauty
-        <svg id="chevron4" class="w-4 h-4 ml-2 transition-transform mt-1 duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg></button>
-        <div id="mobile-dropdown4" class="hidden bg-white text-black rounded  space-y-2 p-2">
-          <ul class="py-2 grid grid-cols-2 gap-2 text-sm">
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Face Creams</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Moisturizers</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Sunscreens</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Serums</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Facial Oils</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Eye Creams</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Face Masks</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Exfoliators</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Makeup Removers</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Primers</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Foundation</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Concealers</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Blush</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Highlighters</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Bronzers</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Eyeliner</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Mascaras</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Eyeshadows</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Lipsticks</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Lip Balms</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Lip Glosses</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Body Scrubs</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Body Lotions</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hand Creams</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hair Shampoos</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Conditioners</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hair Serums</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hair Masks</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Hair Sprays</li>
-            <li class="px-4 py-2 hover:text-[#E72744] cursor-pointer">Perfumes</li>
-          </ul>
-        </div>
-      </div>
-      <div class="flex items-center space-x-2">
-        <span class="text-black m-2 font-semibold">Favourites</span>
-
-        <svg class="w-6 h-6 text-gray-700" viewBox="0 0 24 24">
-          <g stroke="none" strokewidth="1" fill="none" fillrule="evenodd">
-            <g fill="#3E4152">
-              <path
-                d="M8.1703,4.473425 C6.9537,4.473425 5.8134,4.946625 4.95975,5.805525 C4.10435,6.666175 3.63325,7.815575 3.63325,9.042675 C3.63325,10.269775 4.10435,11.419525 4.95975,12.280175 L12,19.362425 L19.0406,12.279825 C19.89565,11.419525 20.36675,10.270125 20.36675,9.042675 C20.36675,7.815575 19.89565,6.665825 19.0406,5.805875 C19.0406,5.805875 19.0406,5.805525 19.04025,5.805525 C18.1866,4.946625 17.0463,4.473425 15.8297,4.473425 C14.6138,4.473425 13.4742,4.946275 12.62055,5.804475 C12.29225,6.134525 11.70845,6.134875 11.3798,5.804475 C10.5258,4.946275 9.3862,4.473425 8.1703,4.473425 L8.1703,4.473425 Z M12.02835,21.276575 L11.972,21.276575 C11.6304,21.276575 11.2965,21.137625 11.05605,20.895075 L3.71865,13.513925 C2.53495,12.323225 1.88325,10.735275 1.88325,9.042675 C1.88325,7.350075 2.53495,5.762475 3.71865,4.571775 C4.9034,3.379675 6.48435,2.723425 8.1703,2.723425 C9.5759,2.723425 10.90905,3.179825 12,4.022625 C13.0913,3.179825 14.4241,2.723425 15.8297,2.723425 C17.516,2.723425 19.09695,3.379675 20.2817,4.572125 C21.46505,5.762475 22.11675,7.350075 22.11675,9.042675 C22.11675,10.735625 21.46505,12.323225 20.2817,13.513925 L12.94325,20.895775 C12.6993,21.141475 12.3745,21.276575 12.02835,21.276575 L12.02835,21.276575 Z">
-              </path>
-            </g>
-          </g>
-        </svg>
-      </div>
-<div class="flex items-center space-x-2">
-  <span class="text-black m-2 font-semibold">Cart</span>
-
-  <svg class="w-6 h-6 text-gray-700" viewBox="0 0 24 24">
-    <path fill="#3E4152" fillrule="evenodd"
-      d="M4.012 20.718L5.246 7.314H7.27v1.763a.733.733 0 101.466 0V7.314h6.528v1.763a.733.733 0 001.466 0V7.314h2.024l1.234 13.404H4.012zM12 3.282c1.56 0 2.865 1.1 3.187 2.565H8.813A3.268 3.268 0 0112 3.282zm8.15 3.228a.733.733 0 00-.73-.663h-2.747A4.734 4.734 0 0012 1.816a4.734 4.734 0 00-4.673 4.03H4.58a.733.733 0 00-.73.664L2.475 21.38a.734.734 0 00.73.804h17.59a.733.733 0 00.73-.803L20.15 6.51z">
-    </path>
-  </svg> 
-</div>
-<div>
-  <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
-  <div class="flex space-x-2">
-    <a href="#!" role="button">
-      <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1877f2]">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-          <path
-            d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
-        </svg>
-      </span>
-    </a>
-    <a href="#!" role="button">
- <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584]">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-          <path
-            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-        </svg>
-      </span>
-    </a>
-
-    <a href="#!" role="button">
-
-      <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#ea4335]">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
-          <path
-            d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
-        </svg>
-      </span>
-    </a>
-
-    <a href="#!" role="button">
-      <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-black">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512">
-          <path
-            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
-        </svg>
-      </span>
-    </a>
-  </div>
-</div>
-</div>
+  <div id="mobile-navbar"></div>
+  <script>
+    fetch('mobile-navbar.html')
+    .then(response => {
+      console.log('Response status:', response.status);  // Check response status
+      return response.text();
+    })
+    .then(data => {
+      console.log('mobile-navbar data:', data);  
+      document.getElementById('mobile-navbar').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error:', error);  // Log any errors
+    });
+  
+  </script>
+ 
   <div class=" my-2">
     <div class="mx-2">
       <input type="text" id="searchInput" class="border md:hidden rounded-xl shadow-lg w-full mb-4 p-2 px-2 "
@@ -728,24 +363,44 @@
         Explore More
       </text>
     </svg>
-    <div class="flex  w-1/2">
-      <img src="./Assets/PriceCrash/kids/630c5d84-b4fa-4ba8-aa92-c91cd134b9201604906586823-39-Banner-LogoMania.jpg">
-      <img
-        src="./Assets/PriceCrash/kids/7e5d76b3-afd1-4e82-8eee-179269cbab1c1604906586871-40-Banner-CharacterStore.jpg">
+    <div class="grid gap-4">
+      <!-- First Row of Images (Mobile and Desktop) -->
+      <img class="w-full md:hidden" src="./Assets/PriceCrash/kids/630c5d84-b4fa-4ba8-aa92-c91cd134b9201604906586823-39-Banner-LogoMania.jpg">
+      <img class="w-full md:hidden" src="./Assets/PriceCrash/kids/7e5d76b3-afd1-4e82-8eee-179269cbab1c1604906586871-40-Banner-CharacterStore.jpg">
+      
+      <!-- Second Row of Images (Mobile and Desktop) -->
+      <img class="w-full md:hidden" src="./Assets/PriceCrash/kids/cd843509-16fe-4437-a814-90f3eea6bb4b1604906586922-41-Banner-AllOrganic.jpg">
+      <img class="w-full md:hidden" src="./Assets/PriceCrash/kids/d878e27a-f64d-45c9-bd9b-ee257b49894f1604906586980-42-Banner-EssentialStore.jpg">
+      
+      <!-- Third Row of Images (Mobile and Desktop) -->
+      <img class="w-full md:hidden" src="./Assets/PriceCrash/kids/bb420f64-fea8-4d66-87b7-03c7f7fb6e621604906587041-43-Banner-Uniquely-Myntra.jpg">
+      <img class="w-full md:hidden" src="./Assets/PriceCrash/kids/1ac6219d-54b8-484e-813b-c239bb9880141604906587091-44-Banner-ActiveWearStore.jpg">
+      
+      <!-- Desktop Images (Visible only on medium and larger screens) -->
+      <div class="md:grid  gap-4">
+        <div class="md:flex md:w-1/2">
+          <img class="w-full" src="./Assets/PriceCrash/kids/630c5d84-b4fa-4ba8-aa92-c91cd134b9201604906586823-39-Banner-LogoMania.jpg">
+          <img class="w-full" src="./Assets/PriceCrash/kids/7e5d76b3-afd1-4e82-8eee-179269cbab1c1604906586871-40-Banner-CharacterStore.jpg">
+        </div>
+      
+        <div class="md:flex md:w-1/2">
+          <img class="w-full" src="./Assets/PriceCrash/kids/cd843509-16fe-4437-a814-90f3eea6bb4b1604906586922-41-Banner-AllOrganic.jpg">
+          <img class="w-full" src="./Assets/PriceCrash/kids/d878e27a-f64d-45c9-bd9b-ee257b49894f1604906586980-42-Banner-EssentialStore.jpg">
+        </div>
+      
+        <div class="md:flex md:w-1/2">
+          <img class="w-full" src="./Assets/PriceCrash/kids/bb420f64-fea8-4d66-87b7-03c7f7fb6e621604906587041-43-Banner-Uniquely-Myntra.jpg">
+          <img class="w-full" src="./Assets/PriceCrash/kids/1ac6219d-54b8-484e-813b-c239bb9880141604906587091-44-Banner-ActiveWearStore.jpg">
+        </div>
+      </div>
     </div>
-    <div class="flex  w-1/2">
-      <img src="./Assets//PriceCrash/kids/cd843509-16fe-4437-a814-90f3eea6bb4b1604906586922-41-Banner-AllOrganic.jpg">
-      <img
-        src="./Assets/PriceCrash/kids/d878e27a-f64d-45c9-bd9b-ee257b49894f1604906586980-42-Banner-EssentialStore.jpg">
-    </div>
-    <div class="flex  w-1/2">
-      <img
-        src="./Assets/PriceCrash/kids/bb420f64-fea8-4d66-87b7-03c7f7fb6e621604906587041-43-Banner-Uniquely-Myntra.jpg">
-      <img
-        src="./Assets/PriceCrash/kids/1ac6219d-54b8-484e-813b-c239bb9880141604906587091-44-Banner-ActiveWearStore.jpg">
-    </div>
+    
+    
+    
   </div>
   </div>
+  
+
   <div class="flex overflow-hidden relative md:mx-10 hidden md:block">
     <div class="flex animate-marquee">
       <img src="./Assets/PriceCrash/al/al1.png" class="  md:h-72">
@@ -771,8 +426,12 @@
     <img class="w-1/2 p-2 rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-110"
       src="./Assets/Furniture/11517563925069-kitchen.jpg">
   </div>
+  
 
   <img src="./Assets/ShopByCat/ShopByCat.jpg">
+
+
+
   <div class=" flex overflow-hidden relative h-64 md:h-full mx-2 md:mx-10  ">
     <div class="flex flex animate-marquee  ">
       <img src="./Assets/ShopByCat/1CS6u6Jl_0dd9a39506b94882ab63ea3f75a4526d.jpg">
@@ -794,96 +453,105 @@
     <img class="w-full sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 h-auto transform transition duration-300 ease-in-out hover:scale-110" src="./Assets/titanic-kate-winslet-as-rose-2vqoenaj5hrgflho.jpg" alt="Titanic Rose">
     <img class="w-full sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 h-auto transform transition duration-300 ease-in-out hover:scale-110" src="./Assets/titanic-movies-love-couple-wallpaper-preview.jpg" alt="Titanic Love Couple">
   </div> -->
-  
-  
-  <div class="max-w-screen-xl mx-auto px-4 py-8">
-    <h1 class="text-xl md:text-3xl font-bold mb-6 text-gray-900">ONLINE SHOPPING MADE EASY AT MYNTRA</h1>
-    <p class="text-lg mb-6 text-gray-700 leading-relaxed">If you would like to experience the best of online shopping for men, women, and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including clothing, footwear, accessories, jewellery, personal care products, and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the comfort of your home and get your favorites delivered right to your doorstep.</p>
-
-    <h2 class="text-xl md:text-3xl font-bold text-gray-800 mb-6">BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION</h2>
-    <p class="text-lg text-gray-700 mb-6">Be it clothing, footwear, or accessories, Myntra offers you the ideal combination of fashion and functionality for men, women, and kids. You will realize that the sky is the limit when it comes to the types of outfits that you can purchase for different occasions.</p>
-
-    <div class="flex flex-wrap gap-8">
-      <div class="w-full sm:w-1/2 ">
-        <h3 class="text-2xl font-semibold text-gray-700 mb-4">Smart Men’s Clothing</h3>
-        <p class="text-gray-600">At Myntra you will find myriad options in smart formal shirts and trousers, cool T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts. Create the back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or window-pane style, checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans, or cropped trousers for a smart casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy weather with courage in water-resistant jackets. Browse through our innerwear section to find supportive garments which would keep you confident in any outfit.</p>
-      </div>
-
-      <div class="w-full sm:w-1/2 ">
-        <h3 class="text-2xl font-semibold text-gray-700 mb-4">Trendy Women’s Clothing</h3>
-        <p class="text-gray-600">Online shopping for women at Myntra is a mood-elevating experience. Look hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic spirit of nautical fashion. Choose your favorites from among Bardot, off-shoulder, shirt-style, blouson, embroidered, and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand sarees and lehenga-choli selections are perfect to make an impression at big social events such as weddings. Our salwar-kameez sets, kurtas, and Patiala suits make comfortable options for regular wear.</p>
-      </div>
-
-      <div class="w-full sm:w-1/2 ">
-        <h3 class="text-2xl font-semibold text-gray-700 mb-4">Fashionable Footwear</h3>
-        <p class="text-gray-600">While clothes maketh the man, the type of footwear you wear reflects your personality. We bring you an exhaustive lineup of options in casual shoes for men, such as sneakers and loafers. Make a power statement at work dressed in brogues and oxfords. Practice for your marathon with running shoes for men and women. Choose shoes for individual games such as tennis, football, basketball, and the like. Or step into the casual style and comfort offered by sandals, sliders, and flip-flops. Explore our lineup of fashionable footwear for ladies, including pumps, heeled boots, wedge-heels, and pencil-heels. Or enjoy the best of comfort and style with embellished and metallic flats.</p>
-      </div>
-
-      <div class="w-full sm:w-1/2 ">
-        <h3 class="text-2xl font-semibold text-gray-700 mb-4">Stylish Accessories</h3>
-        <p class="text-gray-600">Myntra is one of the best online shopping sites for classy accessories that perfectly complement your outfits. You can select smart analogue or digital watches and match them up with belts and ties. Pick up spacious bags, backpacks, and wallets to store your essentials in style. Whether you prefer minimal jewellery or grand and sparkling pieces, our online jewellery collection offers you many impressive options.</p>
-      </div>
-
-      <div class="w-full sm:w-1/2 ">
-        <h3 class="text-2xl font-semibold text-gray-700 mb-4">Fun and Frolic</h3>
-        <p class="text-gray-600">Online shopping for kids at Myntra is a complete joy. Your little princess is going to love the wide variety of pretty dresses, ballerina shoes, headbands and clips. Delight your son by picking up sports shoes, superhero T-shirts, football jerseys, and much more from our online store. Check out our lineup of toys with which you can create memories to cherish.</p>
-      </div>
-
-      <div class="w-full sm:w-1/2 ">
-        <h3 class="text-2xl font-semibold text-gray-700 mb-4">Beauty Begins Here</h3>
-        <p class="text-gray-600">You can also refresh, rejuvenate, and reveal beautiful skin with personal care, beauty, and grooming products from Myntra. Our soaps, shower gels, skin care creams, lotions, and other ayurvedic products are specially formulated to reduce the effect of aging and offer the ideal cleansing experience. Keep your scalp clean and your hair uber-stylish with shampoos and hair care products. Choose makeup to enhance your natural beauty.</p>
-      </div>
-
-      <div class="w-full sm:w-1/2 ">
-        <h3 class="text-2xl font-semibold text-gray-700 mb-4">Transform Your Living Spaces</h3>
-        <p class="text-gray-600">Myntra is one of the best online shopping sites in India which could help transform your living spaces completely. Add color and personality to your bedrooms with bed linen and curtains. Use smart tableware to impress your guest. Wall decor, clocks, photo frames, and artificial plants are sure to breathe life into any corner of your home.</p>
-      </div>
-    </div>
-
-    <h2 class="text-xl md:text-3xl font-semibold md:font-bold text-gray-800 mt-12 mb-6">AFFORDABLE FASHION AT YOUR FINGERTIPS</h2>
-    <p class="text-lg text-gray-700 mb-6">Myntra is one of the unique online shopping sites in India where fashion is accessible to all. Check out our new arrivals to view the latest designer clothing, footwear, and accessories in the market. You can get your hands on the trendiest style every season in western wear. You can also avail the best of ethnic fashion during all Indian festive occasions. You are sure to be impressed with our seasonal discounts on footwear, trousers, shirts, backpacks, and more. The end-of-season sale is the ultimate experience when fashion gets unbelievably affordable.</p>
-
-    <h2 class="text-xl md:text-3xl font-semibold md:font-bold text-gray-800 mt-12 mb-6">MYNTRA INSIDER</h2>
-    <p class="text-lg text-gray-700 mb-6">Every online shopping experience is precious. Hence, a cashless reward-based customer loyalty program called Myntra Insider was introduced to enhance your online experience. The program is applicable to every registered customer and measures rewards in the form of Insider Points.</p>
-
-    <h3 class="text-xl font-semibold text-gray-700 mb-4">Insider</h3>
-    <p class="text-gray-600">Opportunity to master any domain in fashion with tips from celebrity stylists at Myntra Masterclass sessions. Curated collections from celeb stylists.</p>
-
-    <h3 class="text-xl font-semibold text-gray-700 mb-4">Elite</h3>
-    <p class="text-gray-600">VIP access to special sale events such as the End of Reason Sale (EORS) and product launches. Exclusive early access to Limited Edition products.</p>
-
-    <h3 class="text-xl font-semibold text-gray-700 mb-4">Icon</h3>
-    <p class="text-gray-600">Chance to get on guest lists for special events.</p>
-
-    <h2 class="text-xl md:text-3xl font-semibold md:font-bold text-gray-800 mt-12 mb-6">MYNTRA APP</h2>
-    <p class="text-lg text-gray-700 mb-6">Myntra, India’s no. 1 online fashion destination, continues to innovate. Download the Myntra app on your Android or IOS device today and experience shopping like never before!</p>
-
-    <h2 class="text-xl md:text-3xl font-semibold md:font-bold text-gray-800 mt-12 mb-6">HISTORY OF MYNTRA</h2>
-    <p class="text-lg text-gray-700 mb-6">Becoming India’s no. 1 fashion destination is no easy feat. Myntra’s transition from a B2B personalized gift platform in 2007 to an e-commerce giant by 2012 is a testament to the company's dedication and growth.</p>
-
-    <h2 class="text-xl md:text-3xl font-semibold md:font-bold text-gray-800 mt-12 mb-6">SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE</h2>
-    <p class="text-lg text-gray-700 mb-6">Myntra offers a seamless shopping experience with a user-friendly interface, comprehensive size charts, and high-resolution images. Enjoy flexible payment options, 14-day return policies, and the try-and-buy option on select products.</p>
-  </div>
-  
-  <div id="footer-container"></div>
+  <div id="info-page-details"></div>
   <script>
-    // Use fetch to load the footer.html content into the footer-container
-    fetch('footer.html')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Footer file not found');
-        }
-        return response.text();
-      })
-      .then(data => {
-        document.getElementById('footer-container').innerHTML = data;
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
+    fetch('info-page.html')
+    .then(response => {
+      console.log('Response status:', response.status);  // Check response status
+      return response.text();
+    })
+    .then(data => {
+      console.log('info data:', data);  
+      document.getElementById('info-page-details').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error:', error);  // Log any errors
+    });
+  
   </script>
   
+  <div class="container mx-auto p-6">
+    <!-- Follow Us Section -->
+    <div class="mb-8">
+      <h3 class="text-2xl font-semibold text-gray-800 mb-6">Follow Us</h3>
+      <div class="flex flex-wrap justify-center gap-6">
+        <!-- Facebook Icon -->
+        <a href="#!" role="button" class="text-[#1877f2] hover:text-[#3b5998] transition-all duration-300 ease-in-out transform hover:scale-110">
+          <span class="h-12 w-12 p-3 rounded-full bg-[#1877f2] flex items-center justify-center">
+            <i class="fab fa-facebook-f text-white text-xl"></i>
+          </span>
+        </a>
+  
+        <!-- Instagram Icon -->
+        <a href="#!" role="button" class="text-[#c13584] hover:text-[#e1306c] transition-all duration-300 ease-in-out transform hover:scale-110">
+          <span class="h-12 w-12 p-3 rounded-full bg-[#c13584] flex items-center justify-center">
+            <i class="fab fa-instagram text-white text-xl"></i>
+          </span>
+        </a>
+  
+        <!-- Twitter Icon -->
+        <a href="#!" role="button" class="text-[#1DA1F2] hover:text-[#1b95e0] transition-all duration-300 ease-in-out transform hover:scale-110">
+          <span class="h-12 w-12 p-3 rounded-full bg-[#1DA1F2] flex items-center justify-center">
+            <i class="fab fa-twitter text-white text-xl"></i>
+          </span>
+        </a>
+  
+        <!-- LinkedIn Icon -->
+        <a href="#!" role="button" class="text-[#0077B5] hover:text-[#005582] transition-all duration-300 ease-in-out transform hover:scale-110">
+          <span class="h-12 w-12 p-3 rounded-full bg-[#0077B5] flex items-center justify-center">
+            <i class="fab fa-linkedin-in text-white text-xl"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  
+    <!-- Newsletter Section -->
+    <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+      <h3 class="text-2xl font-semibold text-gray-800 mb-6">Subscribe to our Newsletter</h3>
+      <form action="#" method="POST" class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex-1">
+          <input type="email" placeholder="Your email address" class="w-full p-3 border border-gray-300 rounded-md text-gray-800 focus:ring-2 focus:ring-[#E72744] focus:outline-none" required />
+        </div>
+        <div>
+          <button type="submit" class="bg-[#E72744] text-white py-3 px-6 rounded-md hover:bg-[#F13AB1] transition duration-300 ease-in-out">
+            Subscribe
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  
+  <div id="footer-containers"></div>
+  <script>
+    fetch('footer.html')
+    .then(response => {
+      console.log('Response status:', response.status);  // Check response status
+      return response.text();
+    })
+    .then(data => {
+      console.log('Footer data:', data);  
+      document.getElementById('footer-containers').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error:', error);  // Log any errors
+    });
+  
+  </script>
+ 
+  
+  
+  
+  
+  
 
+  <span class="flex items-center justify-center mb-4 text-gray-600 text-sm">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-red-500 mr-2">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+    </svg>
+    Made with Love by <span class="font-semibold ml-3 text-orange-500">Sai Kiran Ravirala</span>
+  </span>
+    
 </body>
 <script src="app.js"></script>
   
