@@ -259,12 +259,12 @@
   <script>
     fetch('mobile-navbar.html')
     .then(response => {
-      console.log('Response status:', response.status);  // Check response status
+      //console.log('Response status:', response.status);  // Check response status
       return response.text();
     })
     .then(data => {
       //console.log('mobile-navbar data:', data);  
-      //document.getElementById('mobile-navbar').innerHTML = data;
+      document.getElementById('mobile-navbar').innerHTML = data;
     })
     .catch(error => {
       console.error('Error:', error);  // Log any errors
@@ -447,11 +447,11 @@
   <script>
     fetch('info-page.html')
     .then(response => {
-      console.log('Response status:', response.status);  // Check response status
+      //console.log('Response status:', response.status);  // Check response status
       return response.text();
     })
     .then(data => {
-      console.log('info data:', data);  
+      //console.log('info data:', data);  
       document.getElementById('info-page-details').innerHTML = data;
     })
     .catch(error => {
@@ -498,9 +498,9 @@
     <!-- Newsletter Section -->
     <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
       <h3 class="text-2xl font-semibold text-gray-800 mb-6">Subscribe to our Newsletter</h3>
-      <form action="#" method="POST" class="flex flex-col sm:flex-row items-center justify-between gap-4">
+      <form action="#"  class="flex flex-col sm:flex-row items-center justify-between gap-4">
         <div class="flex-1">
-          <input type="email" placeholder="Your email address" class="w-full p-3 border border-gray-300 rounded-md text-gray-800 focus:ring-2 focus:ring-[#E72744] focus:outline-none" required />
+          <input type="email" placeholder="Your email address" class="w-full p-3 border border-gray-300 rounded-md text-gray-800 focus:ring-1 focus:ring-[#E72744] focus:outline-none" required />
         </div>
         <div>
           <button type="submit" class="bg-[#E72744] text-white py-3 px-6 rounded-md hover:bg-[#F13AB1] transition duration-300 ease-in-out">
@@ -516,11 +516,11 @@
   <script>
     fetch('footer.html')
     .then(response => {
-      console.log('Response status:', response.status);  // Check response status
+      //console.log('Response status:', response.status);  // Check response status
       return response.text();
     })
     .then(data => {
-      console.log('Footer data:', data);  
+      //console.log('Footer data:', data);  
       document.getElementById('footer-containers').innerHTML = data;
     })
     .catch(error => {
@@ -538,9 +538,13 @@
   <span class="flex items-center justify-center mb-4 text-gray-600 text-sm">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-red-500 mr-2">
       <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+      
+      <!-- Adding text inside SVG -->
+      <text x="12" y="16" font-size="8" text-anchor="middle" fill="black">P</text>
     </svg>
     Made with Love by <span class="font-semibold ml-3 text-orange-500">Sai Kiran Ravirala</span>
-  </span>
+</span>
+
     
 </body>
 <script src="app.js"></script>
