@@ -1,0 +1,70 @@
+
+    @layer components {
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #ffffff;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #3b3b3b;
+        border-radius: 8px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #3b3b3b;
+      }
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+}
+
+@media (max-width: 1024px) {
+  .animate-marquee {
+    animation: marquee 5s linear infinite; 
+  }
+}
+
+
+    .hidden {
+      display: none;
+    }
+
+    #hamburger.active .hamburger {
+      display: none;
+    }
+
+    #hamburger.active .cross {
+      display: block;
+    }
+
+    button {
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      position: relative;
+    }
+
+    #mobile-menu {
+      display: none;
+    }
+
+    #mobile-menu.open {
+      display: block;
+    }
+ 
